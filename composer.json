@@ -1,0 +1,37 @@
+{
+	"name": "robbyahn/silverstripe-customclass",
+	"description": "Adds a telephone number option to TinyMCE's Insert Link dropdown for creating/editing tel: links using native SilverStripe 4 modals",
+	"type": "silverstripe-vendormodule",
+	"homepage": "https://github.com/robbyahn/silverstripe-customclass",
+	"keywords": [
+		"silverstripe",
+		"cms",
+		"tinymce"
+	],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "RobbyAhn",
+			"homepage": "https://RobbyAhn.nz",
+			"email": "developers@RobbyAhn.nz"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/robbyahn/silverstripe-customclass/issues"
+	},
+	"require": {
+		"silverstripe/cms": "^5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"RobbyAhn\\customclass\\": "src/"
+		}
+	},
+	"extra": {
+		"expose": [
+			"client/dist"
+		]
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}

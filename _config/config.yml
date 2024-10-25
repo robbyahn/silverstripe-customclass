@@ -1,0 +1,11 @@
+---
+Name: customclassmodule
+After:
+  - '#cmsmodals'
+---
+SilverStripe\Admin\ModalController:
+  extensions:
+    - RobbyAhn\CustomClass\Forms\CustomClassModalExtension
+SilverStripe\Admin\LeftAndMain:
+  extensions:
+    - RobbyAhn\CustomClass\Extensions\LeftAndMainExtension

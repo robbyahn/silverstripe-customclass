@@ -1,0 +1,5 @@
+en:
+  RobbyAhn\customclass\Forms\EditorCustomClassFormFactory:
+    PHONE: 'Phone Number custom eng'
+    LINKDESCR: 'Link description custom'
+    LINKTEXT: 'Link text custom'
